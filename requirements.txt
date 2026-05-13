@@ -1,0 +1,21 @@
+# Core data science
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Machine learning
+scikit-learn>=1.4.0
+
+# Web framework
+streamlit>=1.35.0
+
+# NLP utilities (used for TF-IDF text cleaning)
+nltk>=3.8.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Serialization (save/load preprocessed artefacts)
+joblib>=1.4.0
+
+# Parquet I/O — required by pandas .to_parquet() / .read_parquet()
+pyarrow>=16.0.0
