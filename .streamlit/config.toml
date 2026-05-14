@@ -1,18 +1,14 @@
-# .streamlit/config.toml
-# Streamlit server & theme for Zomato Recommender
-
 [server]
-headless            = true
-enableCORS          = false
+headless             = true
+enableCORS           = false
 enableXsrfProtection = false
-maxUploadSize       = 50
 
 [browser]
 gatherUsageStats = false
 
 [theme]
-primaryColor            = "#E23744"
-backgroundColor         = "#080810"
-secondaryBackgroundColor = "#0f0f1c"
-textColor               = "#e2e2f0"
+primaryColor            = "#E53935"
+backgroundColor         = "#111318"
+secondaryBackgroundColor = "#161A24"
+textColor               = "#E5E7EB"
 font                    = "sans serif"
